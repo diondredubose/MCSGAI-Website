@@ -27,3 +27,7 @@ document.getElementById('LoginForm').addEventListener('submit', function(event) 
         event.preventDefault();
     }
 });
+
+document.getElementById('clickableSpan').addEventListener('click', function() {
+    window.location.href = '../signup_page/signup-semantics.html';
+});
