@@ -43,3 +43,17 @@ body {
     border-radius: 4px;
     font-size: 16px;
 }
+
+.login-form textarea {
+    resize: vertical;
+}
+
+.login-form input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
